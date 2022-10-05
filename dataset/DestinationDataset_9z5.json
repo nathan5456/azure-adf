@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "covid-data-processed",
+				"fileName": "covid-data-processed.csv",
 				"fileSystem": "processed"
 			},
 			"columnDelimiter": ",",
