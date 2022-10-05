@@ -1,0 +1,23 @@
+{
+	"name": "DestinationDataset_9z5",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "covidreportingadls25456",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "covid-data-processed",
+				"fileSystem": "processed"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
